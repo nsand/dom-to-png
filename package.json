@@ -1,0 +1,23 @@
+{
+  "name": "dom-to-png",
+  "version": "0.0.1",
+  "description": "Middlware that converts DOM to a PNG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/nsandona/dom-to-png.git"
+  },
+  "author": "Nick Sandonato <nsandona@us.ibm.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cuid": "^1.3.8",
+    "phantomjs": "^1.9.18"
+  },
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
